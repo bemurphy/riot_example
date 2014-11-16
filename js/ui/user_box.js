@@ -3,7 +3,6 @@ app(function(a) {
   var tmpl = $('#countsTemplate').html();
   var countsEl = $('#counts', el);
   var count = 0;
-  var list = a.list;
 
   var updateCount = function(n) {
     countsEl.html(riot.render(tmpl, {messagesCount: n}, true));
