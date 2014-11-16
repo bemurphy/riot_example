@@ -13,4 +13,3 @@ app(function(a) {
     a.list.add({name: a.currentUser.name, content: content});
   });
 });
-

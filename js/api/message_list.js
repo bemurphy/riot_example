@@ -12,4 +12,3 @@ function MessageList(app) {
     return messages.length;
   };
 }
-
